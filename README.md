@@ -16,11 +16,11 @@ Xây dựng website bán nước hoa
 
 <h2>3. Giới thiệu tổng quan dự án</h2>
 
-Mục đích:
+<b>Mục đích:
 
 Dự án nhằm tạo ra một website bán nước hoa chuyên nghiệp, cung cấp các tính năng tiện ích và trải nghiệm tối ưu cho người dùng. Hệ thống tập trung vào việc hỗ trợ khách hàng lựa chọn, so sánh và mua sắm nước hoa một cách đơn giản nhất.
 
-Nhiệm vụ chính:
+<b>Nhiệm vụ chính:
 
 Tìm hiểu và phân tích nhu cầu người dùng.
 
@@ -32,9 +32,9 @@ Tích hợp tính năng tư vấn mùi hương phù hợp.
 
 Kiểm thử và tối ưu hóa hệ thống.
 
-Nội dung thực hiện:
+<h4>Nội dung thực hiện:</h4>
 
-Phân tích và thiết kế hệ thống:
+<b>Phân tích và thiết kế hệ thống:
 
 Tìm hiểu nhu cầu khách hàng.
 
@@ -42,13 +42,13 @@ Xây dựng sơ đồ chức năng và luồng xử lý dữ liệu.
 
 Thiết kế giao diện UX/UI dựa trên kết quả nghiên cứu.
 
-Phát triển website:
+<b>Phát triển website:
 
 Xây dựng cơ sở dữ liệu và backend (Laravel, MySQL).
 
 Phát triển frontend bằng HTML, CSS, JavaScript (Bootstrap, Tailwind CSS).
 
-Kiểm thử và triển khai:
+<b>Kiểm thử và triển khai:
 
 Kiểm thử chức năng và độ bền.
 
@@ -62,7 +62,7 @@ HTML, CSS (Bootstrap, Tailwind CSS).
 
 JavaScript.
 
-Backend:
+<h3>Backend:</h3>
 
 Ngôn ngữ: PHP.
 
