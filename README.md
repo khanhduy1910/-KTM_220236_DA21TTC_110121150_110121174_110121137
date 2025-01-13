@@ -1,101 +1,109 @@
-<h1>Dự án: Xây dựng website bán nước hoa<h1></h1>
+# Dự án: Xây dựng Website Bán Nước Hoa ✨
 
-<h2>1. Giới thiệu nhóm</h2>
+## 1. Giới thiệu Nhóm 👥
 
-<h3>Thành viên nhóm:</h3>
+**Thành viên nhóm:**
 
-Trần Khánh Duy (MSSV: 110121150)
+- Trần Khánh Duy (MSSV: 110121150) 
+- Lê Thị Nguyễn Xuyên (MSSV: 110121174) 
+- Lê Trực Tín (MSSV: 110121137) 
 
-Lê Thị Nguyễn Xuyên (MSSV: 110121174)
+---
 
-Lê Trực Tín (MSSV: 110121137)
+## 2. Tên Dự án 🌷
 
-<h2>2. Tên dự án</h2>
+**Xây dựng website bán nước hoa**
 
-Xây dựng website bán nước hoa
+---
 
-<h2>3. Giới thiệu tổng quan dự án</h2>
+## 3. Giới thiệu Tổng quan Dự án 🔧
 
-<b>Mục đích:</b>
+### **Mục đích:**
 
-Dự án nhằm tạo ra một website bán nước hoa chuyên nghiệp, cung cấp các tính năng tiện ích và trải nghiệm tối ưu cho người dùng. Hệ thống tập trung vào việc hỗ trợ khách hàng lựa chọn, so sánh và mua sắm nước hoa một cách đơn giản nhất.
+Dự án nhằm xây dựng một website bán nước hoa chuyên nghiệp, cung cấp trải nghiệm mua sắm tối ưu cho người dùng. Website giúp khách hàng dễ dàng lựa chọn, so sánh và mua sắm nước hoa phù hợp.
 
-<b>Nhiệm vụ chính:</b>
+### **Nhiệm vụ chính:**
 
-Tìm hiểu và phân tích nhu cầu người dùng.
+1. Tìm hiểu và phân tích nhu cầu người dùng.
+2. Phát triển giao diện website thân thiện và hiện đại.
+3. Xây dựng cơ sở dữ liệu quản lý sản phẩm, đơn hàng, và khách hàng.
+4. Tích hợp tính năng tư vấn mùi hương phù hợp.
+5. Kiểm thử và tối ưu hóa hệ thống 🛠.
 
-Phát triển giao diện website thân thiện.
+### **Nội dung thực hiện:**
 
-Xây dựng cơ sở dữ liệu quản lý sản phẩm, đơn hàng, và khách hàng.
+#### **Phân tích và thiết kế hệ thống:**
 
-Tích hợp tính năng tư vấn mùi hương phù hợp.
+- Tìm hiểu nhu cầu khách hàng.
+- Xây dựng sơ đồ chức năng và luồng xử lý dữ liệu.
+- Thiết kế giao diện UX/UI dựa trên kết quả nghiên cứu.
 
-Kiểm thử và tối ưu hóa hệ thống.
+#### **Phát triển website:**
 
-<h4>Nội dung thực hiện:</h4>
+- Xây dựng cơ sở dữ liệu và backend sử dụng Laravel và MySQL 🔧.
+- Phát triển frontend bằng HTML, CSS, JavaScript với các thư viện như Bootstrap, Tailwind CSS.
 
-<b>Phân tích và thiết kế hệ thống:</b>
+#### **Kiểm thử và triển khai:**
 
-Tìm hiểu nhu cầu khách hàng.
+- Thực hiện kiểm thử chức năng, độ ổn định của hệ thống 📊.
+- Thu thập phản hồi từ người dùng để cải tiến 💬.
 
-Xây dựng sơ đồ chức năng và luồng xử lý dữ liệu.
+---
 
-Thiết kế giao diện UX/UI dựa trên kết quả nghiên cứu.
+## 🚀 4. Công nghệ Sử dụng 🛠
 
-<b>Phát triển website:</b>
+### **Frontend:**
 
-Xây dựng cơ sở dữ liệu và backend (Laravel, MySQL).
+- HTML, CSS (Bootstrap, Tailwind CSS) 🎨
+- JavaScript 🔧
 
-Phát triển frontend bằng HTML, CSS, JavaScript (Bootstrap, Tailwind CSS).
+### **Backend:**
 
-<b>Kiểm thử và triển khai:</b>
+- **Ngôn ngữ:** PHP 
+- **Framework:** Laravel 
 
-Kiểm thử chức năng và độ bền.
+### **Cơ sở dữ liệu:**
 
-Thu thập phản hồi từ người dùng để cải tiến.
+- MySQL 
 
-<h2>4. Công nghệ sử dụng</h2>
+### **Công cụ hỗ trợ:**
 
-<h3>Frontend:</h3>
+- Composer 
+- Laragon 
 
-HTML, CSS (Bootstrap, Tailwind CSS).
+---
 
-JavaScript.
+## 5. Kiến trúc Hệ thống 🚧
 
-<h3>Backend:</h3>
+### **Mô hình MVC (Model-View-Controller):**
 
-Ngôn ngữ: PHP.
+- **Model:** Quản lý dữ liệu và các quy tắc xử lý logi.
+- **View:** Cung cấp giao diện người dùng.
+- **Controller:** Kết nối Model và View, xử lý logic giữa người dùng và hệ thống.
 
-Framework: Laravel.
+### **Quy trình xử lý dữ liệu:**
 
-Cơ sở dữ liệu:
+1. Người dùng gửi yêu cầu qua giao diện 👤.
+2. Controller nhận và xử lý yêu cầu 🔍.
+3. Model truy xuất dữ liệu từ cơ sở dữ liệu 📄.
+4. View hiển thị kết quả trả về người dùng 🌐.
 
-MySQL.
+---
 
-Công cụ hỗ trợ:
+## 6. Kết quả Dự kiến 📚
 
-Composer, Laragon.
+- Website hoàn chỉnh với giao diện thân thiện và dễ sử dụng.
+- Tích hợp tính năng tư vấn mùi hương giúp người dùng lựa chọn sản phẩm phù hợp.
+- Hệ thống an toàn và hiệu quả trong việc quản lý đơn hàng, sản phẩm, và khách hàng.
 
-<h2>5. Kiến trúc hệ thống</h2>
+---
 
-<b>Mô hình MVC (Model-View-Controller):</b>
+## 7. Kết luận 📝
 
-Model: Quản lý dữ liệu và các quy tắc xử lý logic.
+Dự án đề cao trải nghiệm người dùng khi mua sắm nước hoa trực tuyến. Với giao diện hiện đại, chức năng tư vấn mùi hương và hệ thống quản lý tối ưu, website sẽ mang lại sự tiện lợi và tin cậy cho khách hàng.
 
-View: Cung cấp giao diện người dùng.
+---
 
-Controller: Kết nối Model và View, xử lý logic giữa người dùng và hệ thống.
+## 8. Liên hệ 📢
 
-<b>Quy trình xử lý dữ liệu:</b>
-
-Người dùng gửi yêu cầu qua giao diện.
-
-Controller nhận và xử lý yêu cầu.
-
-Model truy xuất dữ liệu từ cơ sở dữ liệu.
-
-View hiển thị kết quả trả về người dùng.
-
-<h2>6. Kết luận</h2>
-
-Dự án đề cao sự tiện ích và trải nghiệm người dùng khi mua sắm nước hoa trực tuyến, tối ưu hóa quy trình tư vấn và cung cấp môi trường giao dịch an toàn, hiệu quả.
+Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ nhóm qua email: **3ae@gmail.com**
