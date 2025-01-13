@@ -4,7 +4,7 @@
 
 <h3>Thành viên nhóm:</h3>
 
-<h4>Trần Khánh Duy (MSSV: 110121150)</h4>
+Trần Khánh Duy (MSSV: 110121150)
 
 Lê Thị Nguyễn Xuyên (MSSV: 110121174)
 
@@ -78,7 +78,7 @@ Composer, Laragon.
 
 <h2>5. Kiến trúc hệ thống</h2>
 
-Mô hình MVC (Model-View-Controller):
+<b>Mô hình MVC (Model-View-Controller):</b>
 
 Model: Quản lý dữ liệu và các quy tắc xử lý logic.
 
@@ -86,7 +86,7 @@ View: Cung cấp giao diện người dùng.
 
 Controller: Kết nối Model và View, xử lý logic giữa người dùng và hệ thống.
 
-Quy trình xử lý dữ liệu:
+<b>Quy trình xử lý dữ liệu:</b>
 
 Người dùng gửi yêu cầu qua giao diện.
 
